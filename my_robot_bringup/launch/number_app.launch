@@ -1,0 +1,9 @@
+<launch>
+
+	<param name="/number_publish_frequency" type="double" value="3.0" />
+	<param name="/number_to_publish" type="double" value="10.0" />
+
+	<node name="num_pub" pkg="exercise1" type="num_pub.py" />
+	<node name="num_count" pkg="exercise1" type ="num_count.py" />
+
+</launch>
